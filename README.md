@@ -62,9 +62,10 @@ Open the command prompt or the terminal
 
 Run the following commands to clone, install and run the application:
 
+```bash
+
 git clone https://github.com/Charan2999/book-matching-app.git
 
-```bash
 cd frontend
 npm install
 
