@@ -6,7 +6,7 @@ const cors = require("cors");
 
 const booksData = require("./booksFile/books");
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["http://localhost:5173", "https://bookmatchapp.netlify.app"],
   credentials: true,
 };
 
