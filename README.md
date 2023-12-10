@@ -9,10 +9,7 @@ This is a simple Book Match MERN Stack application, in which you can find all ty
 - [Technologies Used](#technologies-used)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Project Description
 
