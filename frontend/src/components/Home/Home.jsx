@@ -76,7 +76,7 @@ const Home = () => {
               </p>
               <p>
                 Discover your next literary adventure with Book Match – where
-                books meet their perfect readers. 📚✨
+                The Perfect Scroll meet their Perfect Ninja. 📚✨
               </p>
               <div className="field-container">
                 <h3>Search form</h3>
@@ -86,7 +86,6 @@ const Home = () => {
                   placeholder="Search by Genre"
                   value={genre}
                   onChange={handleInputChange}
-                  // onClick={handleKeyPress}
                   required
                 />
                 <input

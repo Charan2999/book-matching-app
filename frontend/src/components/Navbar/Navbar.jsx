@@ -20,7 +20,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <Link to="/saved" className="nav-link">
-            Saved Books
+            Saved Scrolls
           </Link>
         </li>
         <li className="nav-item">

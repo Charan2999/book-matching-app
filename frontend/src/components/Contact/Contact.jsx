@@ -14,7 +14,7 @@ const Contact = () => {
           </div>
           <div className="contact-details">
             <h1>Contact Me</h1>
-            <p>Feel free to reach out to me through the following channels:</p>
+            <p>Feel free to reach out to me through the following messengers:</p>
 
             <div className="social-links">
               <p>

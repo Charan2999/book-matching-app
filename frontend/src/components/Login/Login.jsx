@@ -42,7 +42,7 @@ const Login = () => {
       </div>
       <div className="login-text">
         <p>
-          <em>Hi</em>, Welcome to the Book Match App
+          <em>Hi Ninja</em>, Welcome to the Book Match App
         </p>
         <Button className="login-button" onClick={handleOnClick}>
           Login with Google
