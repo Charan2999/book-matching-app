@@ -32,15 +32,6 @@
   cursor: pointer;
 }
 
-.search-button {
-  font-size: 16px;
-  height: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
 .search-input {
   margin: 20px;
 }
@@ -51,11 +42,19 @@
 }
 
 .search-button {
+  font-size: 16px;
+  height: 16px;
   padding: 12px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row-reverse;
   border: 2px solid #551a8b;
   border-radius: 10px;
+  cursor: pointer;
+}
+.search-button:hover {
+  border: 2px solid #7c293a;
 }
 
 .search-icon-wrapper {

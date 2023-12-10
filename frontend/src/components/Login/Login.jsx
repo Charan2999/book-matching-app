@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "../Login/Login.css";
 import loginSvg from "../../assets/login.svg";
-import { Button } from "antd";
 import { auth, provider } from "../../authentication/googleAuth";
 import { signInWithPopup } from "firebase/auth";
-import { authentication } from "../../authentication/authentication";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
@@ -44,9 +42,9 @@ const Login = () => {
         <p>
           <em>Hi Ninja</em>, Welcome to the Book Match App
         </p>
-        <Button className="login-button" onClick={handleOnClick}>
+        <button className="login-button" onClick={handleOnClick}>
           Login with Google
-        </Button>
+        </button>
       </div>
     </div>
   );

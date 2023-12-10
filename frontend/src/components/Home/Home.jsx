@@ -48,6 +48,7 @@ const Home = () => {
       }
     } catch (error) {
       setIsTyping(false);
+      alert(error.message);
       console.log("Error in getting the books", error);
     }
   };
