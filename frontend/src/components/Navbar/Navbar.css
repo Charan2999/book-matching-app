@@ -1,0 +1,32 @@
+.navbar {
+  padding: 10px;
+  background-color: #2f344a;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav-item {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.nav-item button {
+  padding: 5px;
+  border: 2px solid silver;
+  cursor: pointer;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: silver;
+}

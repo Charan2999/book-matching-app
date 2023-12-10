@@ -1,0 +1,31 @@
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0px 20px 0px;
+
+}
+
+.results-table th,
+.results-table td {
+  border: 1px solid #ac2436;
+  padding: 8px;
+  text-align: left;
+}
+
+.results-table th {
+  background-color: #2f344a;
+  color: white;
+}
+
+.feedback-container{
+    /* width: 300px; */
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ac2436;
+    border-radius: 5px;
+    border-color: #2f344a;
+
+}

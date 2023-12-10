@@ -1,0 +1,48 @@
+.contact-container {
+  /* max-width: 800px; */
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content {
+  height: 100%;
+  flex-direction: row;
+}
+
+.profile-image {
+  margin-right: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: auto;
+}
+
+.contact-details {
+  flex-grow: 1;
+}
+
+.social-links p {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #007bff;
+}
+
+h1,
+p {
+  padding: 10px;
+}
+
+@media (max-width: 450px) {
+  .contact-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
