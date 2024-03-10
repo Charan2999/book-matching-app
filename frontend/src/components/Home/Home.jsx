@@ -14,7 +14,7 @@ const Home = () => {
   const [sliderValue, setSliderValue] = useState(0);
   const [books, setBooks] = useState([]);
   const [feedback, setFeedback] = useState(
-    "Try Searching for The Ninja the Scroll(s) you wanted"
+    "Try Searching for The Ninja Scroll(s) you wanted"
   );
   const userName = localStorage.getItem("userName");
 
