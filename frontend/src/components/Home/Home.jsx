@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import axios from "axios";
+import { message } from "antd";
 import HomeBefore from "../../assets/homebefore.svg";
 import HomeAfter from "../../assets/homeafter.svg";
 import "../Home/Home.css";
@@ -41,14 +42,14 @@ const Home = () => {
       setIsTyping(false);
       if (!response.data.length) {
         setFeedback("No Scroll found!. Try a different Summoning word.");
-        alert("No Scroll found!. Try a different Summoning word.");
+        message.error("No Scroll found!. Try a different Summoning word.");
       } else if (response.data.length > 0) {
         setFeedback("Your Scroll(s) are Ready");
-        alert("Your Scroll(s) are Ready");
+        message.success("Your Scroll(s) are Ready");
       }
     } catch (error) {
       setIsTyping(false);
-      alert(error.message);
+      message.error(error.message);
       console.log("Error in getting the books", error);
     }
   };
